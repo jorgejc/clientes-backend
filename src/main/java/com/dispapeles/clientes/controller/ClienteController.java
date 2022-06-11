@@ -66,7 +66,7 @@ public class ClienteController {
 		}
 	}
 	
-	@DeleteMapping("/{ClineteId}")
+	@DeleteMapping("/{clienteId}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void deleteCliente(@PathVariable int clienteId) throws Exception {
 		try {
