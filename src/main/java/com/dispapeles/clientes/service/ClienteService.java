@@ -59,7 +59,6 @@ public class ClienteService {
 			} else {
 				throw new Exception("El tipo y numero de documento existen");
 			}
-			
 		} else {
 			throw new Exception("Cliente no existe");
 		}
